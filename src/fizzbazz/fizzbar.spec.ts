@@ -13,7 +13,7 @@ describe('fizzbar', () => {
 
   it('should thrown an error if value > 100', () => {
     expect(() => {
-        fizzbar(101)
+      fizzbar(101);
     }).toThrow(Error);
-  })
+  });
 });
