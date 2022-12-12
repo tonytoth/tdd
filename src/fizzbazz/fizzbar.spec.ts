@@ -16,4 +16,8 @@ describe('fizzbar', () => {
       fizzbar(101);
     }).toThrow(Error);
   });
+
+  it('should return "1" ', () => {
+    expect(fizzbar(1)).toBe('1');
+  });
 });
