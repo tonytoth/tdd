@@ -6,7 +6,8 @@ describe('fizzbar', () => {
   });
 
   it('should throw an eror if value < 1', () => {
-    expect(fizzbar(0)).toThrow(Error);
+    expect(() => {
+      fizzbar(0);
+    }).toThrow(Error);
   });
-
 });
