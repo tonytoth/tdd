@@ -10,7 +10,7 @@ const fizzbar = (test: number) => {
     return 'Fizz';
   }
 
-  if (test === 5) {
+  if (test % 5 === 0) {
     return 'Buzz';
   }
 
