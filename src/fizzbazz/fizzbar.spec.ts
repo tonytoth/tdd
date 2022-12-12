@@ -36,4 +36,9 @@ describe('fizzbar', () => {
   it('should return Fizz for 9', () => {
     expect(fizzbar(9)).toBe('Fizz');
   });
+
+  it('should return Bazz for 10', () => {
+    expect(fizzbar(10)).toBe('Bar');
+  });
+
 });
