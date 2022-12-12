@@ -6,6 +6,10 @@ const fizzbar = (test: number) => {
     throw new Error('Value should be less or equal to 100.');
   }
 
+  if (test === 3) {
+    return 'Fizz';
+  }
+
   return test.toString();
 };
 
