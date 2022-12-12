@@ -5,6 +5,8 @@ const fizzbar = (test: number) => {
   if (test > 100) {
     throw new Error('Value should be less or equal to 100.');
   }
+
+  return '1';
 };
 
 export { fizzbar };
