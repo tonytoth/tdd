@@ -20,4 +20,8 @@ describe('fizzbar', () => {
   it('should return "1" ', () => {
     expect(fizzbar(1)).toBe('1');
   });
+
+  it('should return "2" ', () => {
+    expect(fizzbar(2)).toBe('2');
+  });
 });
