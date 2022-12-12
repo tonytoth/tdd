@@ -5,4 +5,8 @@ describe('fizzbar', () => {
     expect(fizzbar).toBeDefined();
   });
 
+  it('should throw an eror if value < 1', () => {
+    
+  })
+
 });
