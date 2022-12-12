@@ -10,6 +10,10 @@ const fizzbar = (test: number) => {
     return 'Fizz';
   }
 
+  if (test === 5) {
+    return 'Buzz';
+  }
+
   return test.toString();
 };
 
